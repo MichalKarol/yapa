@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yapa"
+version = "0.0.1"
+dependencies = []
+requires-python = ">=3.8"
+authors = [
+  {name = "Michal Karol", email = "michal.p.karol@gmail.com"},
+]
+maintainers = [
+  {name = "Michal Karol", email = "michal.p.karol@gmail.com"},
+]
+description = "YAPA (Yet Another Packaging Agent)"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["packaging"]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS",
+  "Operating System :: Microsoft",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python",
+  "Topic :: Software Development :: Build Tools",
+]
